@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // InsertionSort example
+        InsertionSort insertionSortExample = new InsertionSort();
+        int[] arr = {50,30,70,20,10};
+        insertionSortExample.insertionSort(arr,arr.length);
+        insertionSortExample.printArray(arr,arr.length);
     }
 }
