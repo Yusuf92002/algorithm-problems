@@ -21,7 +21,13 @@ public class Main {
 //        printFibonacciSeriesExample.printFibonacciSeries(num-2);
 
         // Sum of all integers between two numbers example
-        Recursion sumIntegersInRangeExample = new Recursion();
-        System.out.println(sumIntegersInRangeExample.sumIntegersInRange(4,6));
+//        Recursion sumIntegersInRangeExample = new Recursion();
+//        System.out.println(sumIntegersInRangeExample.sumIntegersInRange(4,6));
+
+        // MergeSort example
+        MergeSort mergeSortExample = new MergeSort();
+        int [] arr = {40, 30, 20, 60, 90, 33, 45};
+        mergeSortExample.mergeSort(arr, 0, arr.length-1);
+        mergeSortExample.printArray(arr, arr.length);
     }
 }
